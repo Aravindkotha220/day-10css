@@ -1,0 +1,25 @@
+ body{
+    margin: 0px;
+ }
+ header {
+    background-color: black;
+    display: flex;
+    top:0px;
+    width: 100%;
+    padding: 5px;
+}
+ nav>a {
+    text-decoration: none;
+    color: white;
+}
+ header>nav {
+    padding: 5px;
+    text-align: center;
+    flex-grow: 1;
+}
+ nav:hover {
+    background-color: white;
+}
+ nav:hover>a {
+    color: black;
+}
